@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Question 11</title>
+</head>
+<body>
+    <script>
+        var currentDate = new Date(); // Current date and time
+        var currentHours = currentDate.getHours(); // Extract the hours
+        var oneHourAgo = new Date(currentDate); //Create a new date object
+        oneHourAgo.setHours(currentHours - 1); // Set the date object an hour ago
+        document.write("Current date and time: " + currentDate + "<br>");
+        document.write("Date and time one hour ago: " + oneHourAgo);
+    </script>
+</body>
+</html>

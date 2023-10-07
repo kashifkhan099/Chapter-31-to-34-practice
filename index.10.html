@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Question 10</title>
+</head>
+<body>
+    <script>
+        var referenceDate = new Date("December 2015 22:50:16 GMT+0500"); // Reference date and time
+        var beginningOf2015 = new Date(2015, 0, 1); //January 1, 2015
+        var timeDiff = Math.abs(referenceDate - beginningOf2015); // Time difference in milliseconds
+        var secondsElapsed = Math.floor(timeDiff / 1000); //Number of second elapsed
+        document.write("Seconds elapsed since the beginning of 2015 is: " + secondsElapsed);
+    </script>
+</body>
+</html>

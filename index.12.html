@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Question 12</title>
+</head>
+<body>
+    <script>
+        var currentDate = new Date(); // Current date and time
+        var currentYear = currentDate.getFullYear(); // Get the current year
+        var resetDate = new Date(currentDate); //Create a new date object
+        resetDate.setFullYear(currentYear - 100); //Set the year 100 years back
+        alert("Date 100 years back: " + resetDate);
+        // document.write("Current date and time: " + currentDate + "<br>");
+        // document.write("Date and time one hour ago: " + oneHourAgo);
+    </script>
+</body>
+</html>
